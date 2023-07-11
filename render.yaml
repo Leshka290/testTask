@@ -1,9 +1,11 @@
 services:
   - type: web
     name: testTask
-    env: docker
+    runtime: docker
     repo: https://github.com/Leshka290/testTask.git
+    rootDir: testTask
     branch: master
+    healthCheckPath: /
 databases:
   - name: postgres
     user: postgres
