@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: testTask
+    env: node
+    repo: https://github.com/Leshka290/testTask.git
+    branch: master
+databases:
+  - name: framework_db
+    user: postgres
