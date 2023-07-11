@@ -6,4 +6,4 @@ services:
     rootDir: testTask
     branch: master
 databases:
-  - name: framework_db
+  - name: postgres
