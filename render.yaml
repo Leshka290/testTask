@@ -5,5 +5,5 @@ services:
     repo: https://github.com/Leshka290/testTask.git
     branch: master
 databases:
-  - name: framework_db
+  - name: postgres
     user: postgres
