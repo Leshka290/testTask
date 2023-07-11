@@ -20,7 +20,6 @@ public class FrameworkController {
     }
 
     @GetMapping
-    @CrossOrigin
     public ResponseEntity<?> getFrameworks() {
         Collection<FrameworkModel> modelCollection = frameworkService.findAll();
 
@@ -28,7 +27,6 @@ public class FrameworkController {
     }
 
     @GetMapping("/{language}")
-    @CrossOrigin
     public ResponseEntity<?> findAllByLanguage(@PathVariable String language) {
         Collection<FrameworkModel> modelCollection = frameworkService.findAllByLanguage(language);
 
