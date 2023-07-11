@@ -1,9 +1,9 @@
 services:
   - type: web
     name: testTask
-    runtime: docker
+    env: node
     repo: https://github.com/Leshka290/testTask.git
-    rootDir: testTask
     branch: master
 databases:
-  - name: postgres
+  - name: framework_db
+    user: postgres
