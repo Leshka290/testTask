@@ -1,7 +1,7 @@
 services:
   - type: web
     name: testTask
-    runtime: docker
+    runtime: node
     repo: https://github.com/Leshka290/testTask.git
     rootDir: testTask
     branch: master
