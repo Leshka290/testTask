@@ -1,7 +1,7 @@
 services:
   - type: web
     name: testTask
-    env: node
+    env: docker
     repo: https://github.com/Leshka290/testTask.git
     branch: master
 databases:
